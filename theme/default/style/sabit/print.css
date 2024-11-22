@@ -1,0 +1,7 @@
+@media print
+{
+body * { visibility: hidden; }
+#yazdir * { visibility: visible; }
+#yazdir { position: absolute; top: 40px; left: 30px; }
+}
+.break { page-break-before: always; }
